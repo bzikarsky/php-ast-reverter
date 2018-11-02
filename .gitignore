@@ -1,3 +1,6 @@
-.DS_Store
-phpunit.xml
-composer.lock
+# Ignore custom phpunit config
+/phpunit.xml
+
+# Ignore vendors and composer.lock (this is a library)
+/composer.lock
+/vendor
